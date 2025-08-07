@@ -7,7 +7,6 @@ metadata:
     app.kubernetes.io/part-of: nginx-test
     app.kubernetes.io/component: nginx-test
   annotations:
-    nginx.ingress.kubernetes.io/whitelist-source-range: 80.244.179.100/32,185.234.39.39/32,185.234.39.66/32,81.201.136.209/32,46.37.163.173/32,46.37.163.133/32
     nginx.ingress.kubernetes.io/proxy-read-timeout: "30"
     nginx.ingress.kubernetes.io/proxy-body-size: 16m
 spec:
