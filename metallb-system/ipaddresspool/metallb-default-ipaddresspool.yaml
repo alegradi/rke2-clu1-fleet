@@ -1,14 +1,4 @@
 ---
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: 
-  namespace: kube-system
-data:
-  cluster-name: rke2-clu1
-  foo: bar
-
-
 apiVersion: metallb.io/v1beta1
 kind: IPAddressPool
 metadata:
@@ -16,4 +6,4 @@ metadata:
   namespace: metallb-system
 spec:
   addresses:
-  - 172.21.1.10-172.21.1.15
+  - 172.21.1.250-172.21.1.254
