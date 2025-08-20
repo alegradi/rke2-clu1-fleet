@@ -1,0 +1,4 @@
+defaultNamespace: cert-manager
+paused: false
+helm:
+  releaseName: cert-manager-crds
